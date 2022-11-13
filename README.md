@@ -1,6 +1,6 @@
 ## dockselpy
 
-Dockerfile example on how to *"assemble"* together Selenium (with support for Chrome, Firefox and PhantomJS), Python and Xfvb.
+Dockerfile example on how to *"assemble"* together Selenium (with support for Firefox), Python and Xfvb.
 
 ### Information
 
@@ -8,7 +8,6 @@ Recent struggle with finding a docker image for Selenium that supports headless 
 led to the process of building my own version.
 
 The image is build with the following dependencies:
-- latest Chrome and chromedriver
 - latest Firefox and geckodriver
 - latest stable PhantomJS webkit (v2.1.1)
 - Selenium
